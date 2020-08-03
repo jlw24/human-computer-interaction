@@ -1,0 +1,77 @@
+<!--
+
+A landing page with at least two showcase projects.
+Make these visually appealing.
+You should be able to click on at least one of the
+projects to read / see more information.
+A link to your resume (you can either create a
+resume in HTML or link to an external document).
+A link to your bio, also created with HTML and CSS.
+Access to personal contact information.
+Some kind of menu or navigation system for your site.
+
+ -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jasmine Widodo</title>
+</head>
+<body>
+	<header>
+		<link href="styles.css" rel="stylesheet" type="text/css">
+	</header>
+	<div class="topnav">
+		<a href="contact.html">Contact</a> <a href="resume.html">Resume</a> <a href="bio.html">About Me</a>
+		<div class="dropdown">
+			<a class="active" href="index.html">Projects</a>
+			<div class="dropdown-content">
+				<a href="proj1.html">Wireframing</a> <a href="proj2.html">Sketching</a>
+			</div>
+		</div>
+	</div>
+	<div class="top-intro">
+		<h2 class="light">Hey, I'm</h2>
+		<h1 id="name">Jasmine Widodo</h1>
+		<h2 class="light">and welcome to my portfolio.</h2>
+		<hr id="line">
+		<h3>Here are a couple of my projects. Please feel free to look around!</h3>
+	</div>
+	<div class="row">
+		<div class="column" id="project1">
+			<a href="proj1.html">
+			<div class="content">
+				<img class="project-image" src="project4.png">
+				<h3>Wireframing and Prototyping</h3>
+				<p>Created a wireframe prototype to redesign a fictional online book club app.<br>
+				<br>
+				Click to learn more about this project.</p>
+			</div></a>
+		</div>
+
+	<div class="column">
+		<div class="content">
+			<a href="proj2.html"><img class="project-image" src="project3.png">
+			<h3>Sketching and Prototyping</h3>
+			<p>A quick pencil and paper prototype of a challenging user interface idea.<br>
+			<br>
+			Click to learn more about this project.</p></a>
+		</div>
+	</div>
+	<div class="column">
+		<div class="content">
+			<a href="p4.pdf"><img class="project-image" src="project2.png">
+			<h3>Heuristic Evaluation</h3>
+			<p>Completed a heuristic evaluation of a bike rental website.</p></a>
+		</div>
+	</div>
+	<div class="column">
+		<a href="albums.html">
+		<div class="content">
+			<img class="project-image" src="project1.png">
+			<h3>Music Player</h3>
+			<p>Implemented a basic music player using Javascript, HTML, and CSS.</p>
+		</div></a>
+	</div>
+  </div>
+</body>
+</html>
